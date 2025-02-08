@@ -56,7 +56,7 @@ body {
 #sekcija-drustvene-mreze {
     border: 2px solid #ff5d5d;
     background: #ff5d5d;;
-    padding: 40px 75px;
+    padding: 40px 35px;
     border-radius: 50px;
 }
 
@@ -91,7 +91,7 @@ body {
 #dugme-drustvene-mreze {
     font-size: 4rem;
     color: #fff;
-    margin: 10px;
+    margin: 5px;
     border: none;
     background: none;
     cursor: pointer;
