@@ -5,7 +5,7 @@ var dmreze = document.getElementById("kategorija-2");
 function prikaziLinkove() {
 
     if(pocetna.style.display ='block') {
-        document.querySelector('title').textContent = "💊 | mediplus - društvene mreže";
+        document.querySelector('title').textContent = "💊 | medialert - društvene mreže";
         pocetna.style.display ='none';
         dmreze.style.display = 'block';
     } else {
