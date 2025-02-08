@@ -1,0 +1,45 @@
+<!---sva prava zadrzana (non-profit)-->
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <link rel="icon" type="image/x-icon" href="ikonica.ico">
+        <title>mediplus - početna</title>
+        <script src="https://kit.fontawesome.com/c74d5162ce.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="grafika/css/index.css">
+        <link rel="stylesheet" href="grafika/css/animacija.css">
+        <meta id="viewport" name="viewport" content="width=device-width, initial-scale=0.8, minimum-scale=0.8, maximum-scale=0.8, viewport-fit=cover">
+        <meta charset="utf-8">
+        <meta name="author" content="mediplus | 💊">
+        <meta name="description" content="jer vaše zdravlje nema cenu ❤️">
+        <meta property="og:image" content="https://i.ibb.co/FbNtj5pS/banner.jpg"> 
+    </head>
+    <body onload="animacija();">
+        <div class="sadrzaj">
+        <div id="kategorija-1">
+            <div id="pocetna">
+                <h1>
+                    <span class="tekst-1">mediplus</span>
+                    <span class="tekst-2">praktično rešenje.</span>
+                </h1>
+                <p>web aplikacija je trenutno u izradi, pojedine mogućnosti nisu dostupne.</p>
+            </div><br><br>
+            <div id="button-sekcija">
+                <button id="dugme" onclick="alert('greška! trenutno ne možete preuzeti aplikaciju, pokušajte kasnije ili kontaktirajte administratora.')">preuzmi</button>
+                <button id="dugme" onclick="prikaziLinkove();">pronađi nas</button>
+            </div>
+        </div>
+        <div id="kategorija-2">
+        <div id="sekcija-drustvene-mreze">
+            <div id="drustvene-mreze">
+                <a href="#"><button id="dugme-drustvene-mreze"><i class="fa-brands fa-tiktok"></i></button></a>
+                <a href="#"><button id="dugme-drustvene-mreze"><i class="fa-brands fa-instagram"></i></button></a>
+                <a href="#"><button id="dugme-drustvene-mreze"><i class="fa-solid fa-podcast"></i></button></a>
+            </div>
+        </div>
+        <div id="dugme-nazad">
+            <button id="dugme-posebno" onclick="sakrijLinkove();"><i class="fa-solid fa-house"></i></button>          
+        </div>
+        </div>
+        <script src="skripte/index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'panton';
+    src: url('../fontovi/panton-black.ttf');
+}
+
+@font-face {
+    font-family: 'poppins-black';
+    src: url('../fontovi/poppins-black.ttf');
+}
+
+@font-face {
+    font-family: 'poppins-regular';
+    src: url('../fontovi/poppins-regular.ttf');
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('../fontovi/roboto.ttf');
+}
+
+
+body {
+    background: #f04b4b;
+}
+
+.sadrzaj {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+#pocetna {
+    color: #fff;
+    text-decoration: none;
+    text-align: left;
+}
+
+#kategorija-1 {
+    display: block;
+}
+
+
+#kategorija-2 {
+    display: none
+}
+
+#dugme-nazad {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left: 40%;
+    top: 210%;
+}
+
+#sekcija-drustvene-mreze {
+    border: 2px solid #ff5d5d;
+    background: #ff5d5d;;
+    padding: 40px 75px;
+    border-radius: 50px;
+}
+
+#dugme,#dugme-posebno {
+    padding: 10px 15px;
+    background: none;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    margin: 3px;
+    font-size: 13px;
+    color: #fff;
+    font-family: 'poppins-regular';
+    cursor: pointer;
+    transition: .4s ease;
+    user-select: none;
+}
+
+#dugme-posebno {
+    font-size: 2rem;
+}
+
+#dugme:hover,#dugme-posebno:hover {
+    border: 2px solid #ff5d5d;
+    background: #ff5d5d;
+}
+
+#drustvene-mreze {
+    display: flex;
+    user-select: none;
+}
+
+#dugme-drustvene-mreze {
+    font-size: 4rem;
+    color: #fff;
+    margin: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+#button-sekcija {
+    margin: 0 -5px;
+}
+
+p {
+    margin: -20px 0px;
+    font-family: 'poppins-regular';
+    font-size: 0.9rem;
+}
+
+h1 {
+    font-family: 'poppins-black';
+    font-size: 1.8rem;
+}
+
+
