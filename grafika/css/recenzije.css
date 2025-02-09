@@ -34,10 +34,13 @@ body {
     max-width: 500px; 
     margin: 20px auto;
     border-radius: 85px;
-    border:5px solid rgb(255, 115, 115);
+<<<<<<< HEAD
+=======
+    /*border:5px solid rgb(255, 115, 115);*/
+>>>>>>> 0df589ff3c94a12a99d14143c0fb73086c323526
     overflow: hidden;
     background-color: rgb(255, 93, 93);
-    padding: 20px 15px 80px;
+    padding: 20px 15px 50px;
     text-align: center;
     font-family: 'Arial', sans-serif;
 }
@@ -85,10 +88,10 @@ body {
 .fotografija {
     pointer-events: none;
     user-select: none;
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    margin: 10px auto;
+    margin: 0px auto;
     object-fit: cover;
 }
 
@@ -108,7 +111,7 @@ body {
     cursor: pointer;
     position: absolute;
     top: 50%;
-    transform: translateY(-80%);
+    transform: translateY(-120%);
 }
 
 .prethodno {
