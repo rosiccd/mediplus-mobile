@@ -11,7 +11,7 @@
     white-space: nowrap;
     display: inline-block;
     position: relative;
-    animation-duration: 10s;
+    animation-duration: 12s;
     animation-timing-function: steps(25, end);
     animation-iteration-count: infinite;
 }
@@ -51,7 +51,7 @@
       width: 0;
     }
     10%, 40% {
-      width: 7.5em;
+      width: 8.5em;
     }
 }
 
