@@ -1,0 +1,179 @@
+@font-face {
+    font-family: 'panton';
+    src: url('../fontovi/panton-black.ttf');
+}
+
+@font-face {
+    font-family: 'poppins-black';
+    src: url('../fontovi/poppins-black.ttf');
+}
+
+@font-face {
+    font-family: 'poppins-regular';
+    src: url('../fontovi/poppins-regular.ttf');
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('../fontovi/roboto.ttf');
+}
+
+
+body {
+    background-color: #f04b4b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.recenzije-slajder {
+    position: relative;
+    width: 90%;
+    max-width: 500px; 
+    margin: 20px auto;
+    border-radius: 85px;
+    border:5px solid rgb(255, 115, 115);
+    overflow: hidden;
+    background-color: rgb(255, 93, 93);
+    padding: 20px 15px 80px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.akademsko-zvanje {
+    font-family: 'poppins-regular';
+    user-select:none;
+    margin: -20px 0 15px;
+    position: relative;
+}
+
+.slajdovi {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+
+.slajd {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    color: #fff;
+    transition: transform 0.5s ease;
+}
+
+.sadrzaj-recenzije {
+    margin-bottom: 20px;
+}
+
+.ime {
+    font-family: 'poppins-black';
+    user-select: none;
+    font-size: 1.6em;
+    color: #fff;
+}
+
+.tekst-recenzije {
+    font-size: 1em;
+    font-family: 'poppins-regular';
+    color: #f4f4f4;
+    margin: 10px 0;
+}
+
+.fotografija {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 10px auto;
+    object-fit: cover;
+}
+
+.kontrole {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    z-index: 10;
+}
+
+.prethodno, .sledece {
+    color: #fff;
+    background: none;
+    border: none;
+    font-size: 35px;
+    border-radius: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-80%);
+}
+
+.prethodno {
+    left: 20px; 
+}
+
+.sledece {
+    right: 52px; 
+}
+
+.prethodno:hover, .sledece:hover {
+}
+
+.indikator-slajd {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+.indikator {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.indikator.active {
+    background-color: #fff;
+}
+
+@media (max-width: 600px) {
+    .recenzije-slajder {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .tekst-recenzije {
+        font-size: 1em;
+    }
+
+    .ime {
+        font-size: 1.4em;
+    }
+
+    .reviewer-photo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .kontrole .prethodno, .kontrole .sledece {
+        padding: 12px;
+        font-size: 22px;
+    }
+
+    .indikator {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+/* Tablet-Friendly Design */
+@media (max-width: 768px) and (min-width: 601px) {
+    .recenzije-slajder {
+        width: 80%;
+    }
+}

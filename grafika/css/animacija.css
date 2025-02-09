@@ -29,6 +29,10 @@
     animation: pulsiranje 1s infinite ease-in-out alternate;
 }
 
+.review-slider {
+  animation: pulsiranje 1s infinite ease-in-out alternate;
+}
+
 @keyframes pulsiranje {
     from { transform: scale(0.95); }
     to { transform: scale(1.0); }

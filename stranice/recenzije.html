@@ -1,0 +1,68 @@
+<!--generisana skripta-->
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <link rel="icon" type="image/x-icon" href="../ikonica.ico">
+    <title>💊 | medialert - recenzije</title>
+    <script src="https://kit.fontawesome.com/c74d5162ce.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../grafika/css/recenzije.css">
+    <link rel="stylesheet" href="../grafika/css/animacija.css">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=0.6, minimum-scale=0.6, maximum-scale=0.6, viewport-fit=cover">
+    <meta charset="utf-8">
+    <meta name="description" content="vaše zdravlje nema cenu ❤️">
+    <meta property="og:image" content="https://i.ibb.co/FbNtj5pS/banner.jpg"> 
+</head>
+<body>
+
+<div class="recenzije-slajder">
+    <div class="slajdovi">
+        <div class="slajd">
+            <div class="sadrzaj-recenzije">
+                <img class="fotografija" src="../grafika/fotografije/jz.jpg" alt="Reviewer Photo">
+                <p class="ime">Dr. Jovan Zorić</p>
+                <p class="akademsko-zvanje"><strong>internista nefrolog</strong></p>
+                <p class="tekst-recenzije">Odličnan dodatak veoma jednostavan za upotrebu, preporučujem svojim pacijentima! Podrška ovim inovativnim mladim ljudima.</p>
+            </div>
+        </div>
+        <div class="slajd">
+            <div class="sadrzaj-recenzije">
+                <img class="fotografija" src="../grafika/fotografije/tb.jpg" alt="Reviewer Photo">
+                <p class="ime">Dr. Tanasije Balšić</p>
+                <p class="akademsko-zvanje"><strong>specijalista infektolog</strong></p>
+                <p class="tekst-recenzije">Kao infektolog mogu vam reći da je satnica uzimanja lekova veoma bitna kod terapije infektivnih oboljenja, veoma korisno i jednostavno. Sve pohvale i preporuke!</p>
+            </div>
+        </div>
+        <div class="slajd">
+            <div class="sadrzaj-recenzije">
+                <img class="fotografija" src="../grafika/fotografije/nv.jpg" alt="Reviewer Photo">
+                <p class="ime">Dr. Nevena Vukić</p>
+                <p class="akademsko-zvanje"><strong>doktor medicine</strong></p>
+                <p class="tekst-recenzije">U radu sa decom i starima potrebno je biti koncizan i predstaviti poprilično komplikovane stvari na svima razumljiv način. Narkuvicu preporučujem svakome jer i najpažljiviji zaboravljaju vreme. 😊</p>
+            </div>
+        </div>
+        <div class="slajd">
+            <div class="sadrzaj-recenzije">
+                <img class="fotografija" src="../grafika/fotografije/pm.jpg" alt="Reviewer Photo">
+                <p class="ime">Petar Manić (65)</p>
+                <p class="akademsko-zvanje"><strong>pacijent</strong></p>
+                <p class="tekst-recenzije">Veoma lako za upotrebu, ekonomično i kvalitetno. Kao da nosite sat prelepog izgleda koji ne osetite na ruci, sve pohvale.</p>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="kontrole">
+        <button class="prethodno" onclick="pomeriSlajd(-1)">&#10094;</button>
+        <button class="sledece" onclick="pomeriSlajd(1)">&#10095;</button>
+    </div>
+
+    <div class="indikator-slajd">
+        <span class="indikator" onclick="moveToSlide(0)"></span>
+        <span class="indikator" onclick="moveToSlide(1)"></span>
+        <span class="indikator" onclick="moveToSlide(2)"></span>
+        <span class="indikator" onclick="moveToSlide(3)"></span>
+    </div>
+</div>
+    <script src="../skripte/index.js"></script>
+</body>
+</html>
