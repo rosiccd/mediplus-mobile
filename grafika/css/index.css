@@ -109,6 +109,8 @@ p {
 
 h1 {
     font-family: 'poppins-black';
+    user-select: none;
+    pointer-events: none;
     font-size: 1.8rem;
 }
 
