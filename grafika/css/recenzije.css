@@ -75,6 +75,7 @@ body {
 }
 
 .tekst-recenzije {
+    user-select: none;
     font-size: 1em;
     font-family: 'poppins-regular';
     color: #f4f4f4;
@@ -82,6 +83,8 @@ body {
 }
 
 .fotografija {
+    pointer-events: none;
+    user-select: none;
     width: 120px;
     height: 120px;
     border-radius: 50%;
