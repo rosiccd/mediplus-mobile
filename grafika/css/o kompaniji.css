@@ -89,7 +89,7 @@ body {
 
     }
 
-    #buttons-list {
+    #drustvene-lista {
         padding-top: 15px;
         background-color: #ff5d5d;
         border: 2px solid   #ff5d5d;
@@ -109,25 +109,3 @@ body {
     }
 }
 
-.date-box {
-    position: absolute;
-    top: 30px;
-    left: 100px;
-    height: 55px;
-    width: 55px;
-    background-color: #ff5d5d;
-    border-radius: 10px;
-    padding: 10px;
-    transform: translate3d(0px, 0px, 50px);
-  
-    span {
-        display: block;
-        text-align: center;
-    }
-
-    .month {
-        color: white;
-        margin: 4px;
-        font-size: 25px;
-    }
-}

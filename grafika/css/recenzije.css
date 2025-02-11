@@ -18,6 +18,12 @@
     src: url('../fontovi/roboto.ttf');
 }
 
+.logo {
+    color: white;
+    padding-top: 15px;
+    font-size: 50px;
+}
+
 
 body {
     background-color: #f04b4b;
@@ -65,6 +71,25 @@ body {
     transition: transform 0.5s ease;
 }
 
+#drustvene-lista {
+    text-align: center;
+    padding-top: 50px;
+    border: none;
+    background: none;
+    color: #fff;
+    padding-bottom: 15px;
+    border-radius: 20px;
+}
+
+.dugme-drustvene {
+    font-size: 60px;
+    cursor: pointer;
+    margin: 0 15px;
+    border: none;
+    background: none;
+    color: #fff;
+}
+
 .sadrzaj-recenzije {
     margin-bottom: 20px;
 }
@@ -101,7 +126,7 @@ body {
     z-index: 10;
 }
 
-.prethodno, .sledece {
+.prethodno, .sledece, .prethodno-1, .sledece-1{
     color: #fff;
     background: none;
     border: none;
@@ -113,16 +138,21 @@ body {
     transform: translateY(-120%);
 }
 
-.prethodno {
+.prethodno-1, .sledece-1 {
+
+    transform: translateY(-300%);
+
+}
+
+.prethodno, .prethodno-1 {
     left: 20px; 
 }
 
-.sledece {
+.sledece, .sledece-1 {
     right: 52px; 
 }
 
-.prethodno:hover, .sledece:hover {
-}
+
 
 .indikator-slajd {
     position: absolute;
