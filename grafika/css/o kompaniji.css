@@ -28,6 +28,7 @@
 }
 
 body {   
+    overflow: hidden;
     background-color: #f04b4b;
     padding: 0px 20px;
 
@@ -35,7 +36,6 @@ body {
 .container {
     user-select: none;
     padding: 0px 0px;
-    height: 50vh;
     display: flex;
     justify-content:center;
     align-items: center;
@@ -57,11 +57,7 @@ body {
     width: 100%;
     transition: all 0.5s ease-in-out;
     border-radius: 10px;
-    
-    &:hover {
-        background-position: 80% 20%;
-        transform: rotate3d(0.5, 1, 0, 30deg);
-    }
+
 }
 
 .content-box {
@@ -72,7 +68,6 @@ body {
   border: 5px solid #f04b4b;
     transition: all .5s ease-in-out;
     padding: 30px;
-    transform-style: preserve-3d;
     
 
     .card-title {
@@ -80,27 +75,18 @@ body {
         color: white;
         text-align: center;
         padding-top: 15px;
-        font-size: 15px;
+        font-size: 20px;
         font-weight: 900;
-        transition: all 0.5s ease-in-out;
-        transform: translate3d(0px, 0px, 20px);
-        &:hover {
-            transform: translate3d(0px, 0px, 50px);
-        }
+
     }
 
     .card-content {
         text-align: center;
         font-family: Nunito, sans-serif;
         padding-top: 5px;
-        font-size: 12px;
+        font-size: 13px;
         color: rgb(255, 255, 255);
-        transition: all 0.5s ease-in-out;
-        transform: translate3d(0px, 0px, 20px);
-        
-        &:hover {
-            transform: translate3d(0px, 0px, 50px);
-        }
+
     }
 
     #buttons-list {
@@ -120,12 +106,6 @@ body {
         color: rgb(255, 255, 255);
         border-radius: 22px;
         padding: 5px 15px;
-        transition: all 0.5s ease-in-out;
-        transform: translate3d(0px, 0px, 20px);
-        
-        &:hover {
-            transform: translate3d(0px, 0px, 50px);
-        }
     }
 }
 
