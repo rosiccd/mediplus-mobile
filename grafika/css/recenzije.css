@@ -26,6 +26,7 @@
 
 
 body {
+    overflow: hidden;
     background-color: #f04b4b;
     display: flex;
     justify-content: center;
