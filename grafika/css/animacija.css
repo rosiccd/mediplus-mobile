@@ -25,18 +25,24 @@
     animation-timing-function: steps(1, end);
 }
 
-#sekcija-drustvene-mreze {
+#sekcija-drustvene-mreze, .recenzije-slajder {
     animation: pulsiranje 1s infinite ease-in-out alternate;
 }
 
-.recenzije-slajder {
-  animation: pulsiranje 1s infinite ease-in-out alternate;
+.date-box {
+  animation: pulsiranje2 0.7s infinite ease-in-out alternate;
 }
 
 @keyframes pulsiranje {
     from { transform: scale(0.95); }
     to { transform: scale(1.0); }
 }
+
+@keyframes pulsiranje2 {
+  from { transform: scale(0.95); }
+  to { transform: scale(1.1); }
+}
+
 
 @keyframes text2 {
 

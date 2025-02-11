@@ -114,4 +114,12 @@ h1 {
     font-size: 1.8rem;
 }
 
+.btn {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
 
